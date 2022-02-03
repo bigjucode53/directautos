@@ -109,7 +109,12 @@ input, select, textarea {
 
 		}
 	
-		
+		.carte {
+		margin-bottom: 20px;
+		margin-left: 22%;
+		margin-right: 22%;
+			
+		}
 /* Type */
 
 	html {
@@ -121,9 +126,61 @@ input, select, textarea {
 			html {
 				font-size: 12pt;
 			}
+			.carte {
+				margin-left: 13%;
+			}
 
 		}
 
+		@media screen and (max-width: 620px) {
+			.carte {
+				margin-left:9% ;
+			}
+		}
+
+		@media screen and (max-width: 580px) {
+			.carte {
+				margin-left: 9%;
+			}
+		}
+        @media screen and (max-width: 570px) {
+			.carte {
+				margin-left: 4%;
+				margin-right: 4%;
+			}
+		}
+		@media screen and (max-width: 520px) {
+			.carte {
+				margin-left: 1%;
+				margin-right: 1%;
+			}
+		} 
+		@media screen and (max-width: 480px) {
+		    .carte {
+				margin-left: 13%;
+				margin-right: 13%;
+			}
+		}
+		@media screen and (max-width: 415px) {
+			.carte {
+				margin-left: 5%;
+			}
+		} 
+		@media screen and (max-width: 376px) {
+			.carte {
+				margin-left: 1%;
+			}
+		}
+		@media screen and (max-width: 391px) {
+			.carte {
+				margin-left: 2%;
+			}
+		} 
+		@media screen and (max-width: 393px) {
+			.carte {
+				margin-left: 2%;
+			}
+		} 
 		@media screen and (max-width: 736px) {
 
 			html {
@@ -137,7 +194,9 @@ input, select, textarea {
 			html {
 				font-size: 10pt;
 			}
-
+            .carte {
+				margin-left: 0;
+			}
 		}
 
 	body, input, select, textarea {

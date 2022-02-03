@@ -61,6 +61,13 @@
 				$nav_li.eq( ($nav_li.length / 2) ).addClass('is-middle');
 
 			}
+			$nav_li.on('click', function(event) {
+                //disparition logo 
+                document.getElementById("imglogo").style.visibility="hidden";
+				
+				
+
+			});
 
 	// Main.
 		var	delay = 325,
@@ -302,12 +309,11 @@
 					});
 
 			});
-
+           
 		// Events.
 			$body.on('click', function(event) {
-
-				//disparition logo 
-				document.getElementById("imglogo").style.visibility="hidden";
+              
+				
 				// Article visible? Hide.
 					if ($body.hasClass('is-article-visible'))
 						$main._hide(true);

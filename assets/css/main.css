@@ -639,8 +639,38 @@ input, select, textarea {
 
 /* Box */
 #linklebc{
-	color: aqua;
+	
+	color:white;
+	
+	border:solid;
+	border-color: black;
+	border-radius: 20px;
+	padding-right: 20px ;
+	padding-left: 20px;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-shadow: rgba(198, 192, 19, 0.311) 1px 0 10px;
+	background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+	text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   box-shadow: 0 0 20px #eee;
 }
+#linklebc:hover {
+	background-position: right center; /* change the direction of the change here */
+	text-decoration: none;
+	color: black;
+	
+  }
+
+
+
+  
+  
+ 
+
 
 	.box {
 		border-radius: 4px;
